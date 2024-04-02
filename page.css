@@ -1,0 +1,258 @@
+@font-face{
+    font-family: bose;
+    src: url(bose.ttf);
+}
+
+body .nav-above{
+    display:flex;
+    flex-direction: row;
+    background-color: #EEEBE7;
+    width:100%; 
+    height: 100%;  
+    border-bottom: 1px;
+    border-style: solid;
+    border-width: 1px;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .dot {
+    width: 10px;  
+    height: 10px;
+    background-color: #EEEBE7;  
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%; 
+    margin: 5px;
+  }
+  nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background:  #EEEBE7;
+    border-style: solid;
+    border-width: 1px;
+    border-top: 0;
+    font-family: bose;
+    
+}
+.logo{
+    position:sticky;
+   left: 600px;
+}
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000000;
+    padding-right: 15px;
+}
+
+ nav a:hover {
+    background-color: rgb(177, 177, 177);
+    transition-duration: 0.6s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    border-radius: 5px;
+  }
+
+  main{
+    width: 100%;
+    height: 500px;
+    background:#EEEBE7;
+    border-style: solid;
+    border-width: 1px;
+    border-top: 0;
+    display: flex;
+    flex-direction: row;
+  }
+.info{
+    margin: 0;
+    padding: 0;
+    font-family: bose;
+    padding-left:140px;
+    width: 70%;
+}
+  h1{
+    margin: 0;
+    font-size: 70px;
+    padding-top: 40px;
+  }
+
+  h2{
+    margin: 0;
+    font-size: 50px;
+    padding-top: 10px;
+    color: rgb(82, 82, 82);
+  }
+ main p{
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+ }
+  .main-img img{
+    width: 70%;
+    padding-left: 90px;
+    padding-top: 20px;
+    animation: float 3s alternate infinite;
+  }
+
+  @keyframes float{
+    0%{
+      transform: translateY(0);
+    }
+    50%{
+      transform: translateY(18px);
+    }
+    100%{
+      transform: translateY(0);
+    }
+  }
+
+  .why{
+    width: 100%;
+    height: 500px;
+    background:#EEEBE7;
+    border-style: solid;
+    border-width: 1px;
+    border-top: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  .why img{
+    width: 37%;
+    margin-left: 90px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+  }
+
+.reasons{
+display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #3b3b3b;
+    margin-left: 120px;
+    font-family: bose;
+}
+.reasons h1{
+  color: #000000;
+}
+
+  .products{
+    width: 100%;
+    height: 520px;
+    background:#EEEBE7;
+    border-style: solid;
+    border-width: 1px;
+    border-top: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heading{
+    font-family: bose;
+     margin-left: 50px;
+}
+  
+
+  .line{
+    display: flex;
+  }
+
+  .prod1, .prod2, .prod3, .prod4{
+    width: 20%;
+    height:fit-content;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 40px;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+  }
+  .line img:hover{
+    background-color: #e0baff8c;
+    border-radius: 10px;
+    transition: 1s;
+  }
+  .prod1 p, .prod2 p, .prod3 p, .prod4 p{
+    font-family: bose;
+margin-left: 55px;
+  }
+  .prod1 img{
+    width: 100%;
+  }
+
+  .prod2 img{
+    width: 100%;
+  }
+
+  .prod3 img{
+    width: 100%;
+  }
+
+  .prod4 img{
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+    font-family: bose;
+    background:#EEEBE7;
+    border-style: solid;
+    border-width: 1px;
+    border-top: 0;
+    color: #000000;
+    padding: 50px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    width: 20%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section a {
+    color: #3b3b3b;
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    color: #000000;
+  }
